@@ -1,0 +1,152 @@
+/* CSS Horizontal Slider */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #320E3B;
+}
+*.dark {
+  color: #EFEFEF;
+}
+
+.slider {
+  font-family: sans-serif;
+  scroll-snap-type: mandatory;
+  scroll-snap-points-y: repeat(100vw);
+  scroll-snap-type: x mandatory;
+  display: flex;
+  overflow-x: scroll;
+}
+
+section {
+  border-right: 0;
+  padding: 1rem;
+  min-width: 100vw;
+  height: 100vh;
+  scroll-snap-align: start;
+  text-align: center;
+  position: relative;
+  font-family: 'Ubuntu', sans-serif;
+  color: #320E3B;
+}
+section.dark {
+  color: #EFEFEF;
+}
+
+/* End CSS Slider */
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #FFFFFF;
+  background-image: url("../images/shattered.png");
+}
+body.dark {
+  background-color: #000000;
+  background-image: url("../images/shattered-dark.png");
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 900;
+  font-size: 5rem;
+}
+h2, h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.5rem;
+}
+@media only screen and (min-width: 500px) {
+  h1{
+    font-size: 7rem;
+  }
+  h2, h3 {
+    font-size: 3rem;
+  }
+}
+@media only screen and (min-width: 1066px) {
+  h1 {
+    font-size: 9rem;
+  }
+  h2, h3{
+    font-size: 4rem;
+  }
+}
+
+.progress {
+  height: 5px;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.progress-bar.dark {
+  background-color: #E56399 !important;
+}
+
+.modal-button {
+  margin-bottom: 1rem
+}
+
+.modal-body {
+  text-align: left;
+}
+
+.courses {
+  margin-left: 2rem;
+}
+
+.icon {
+  font-size: 2.75rem;
+  color: #17a2b8;
+  transition: color 0.5s ease;
+  transition: font-size 0.5s ease;
+}
+.icon:hover {
+  color: #E56399;
+  font-size: 350%;
+}
+
+span {
+  transition: color 0.5s ease;
+  transition: font-size 0.5s ease;
+  color: #17a2b8;
+}
+span:hover {
+  color: #E56399;
+  font-size: 110%;
+}
+
+.card-deck {
+  margin: 0 0.25rem 0 0.25rem;
+}
+
+.card {
+  transition: box-shadow 1s ease;
+  box-shadow: -5px 8px 21px 1px #320E3B;
+  margin: 0 2rem 0 2rem;
+}
+.card:hover {
+  box-shadow: -5px 8px 21px 1px #E56399;
+}
+.card.dark {
+  background-color: #4f4f4f !important;
+}
+
+.list-group-item.dark {
+  background-color: #4f4f4f !important;
+  border: 1px solid black !important;
+}
+
+.nav-link {
+  text-align: center;
+}
+
+.navbar-custom {
+  font-size: 1.5rem;
+}
+
+.list-group {
+  margin-left: 15vw;
+  margin-right: 15vw;
+}
+
+.tech {
+  margin: 1rem;
+}
