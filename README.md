@@ -1,7 +1,7 @@
 # CodeCrash
 
 ## Preview
-<img src="/images/responsive-demo.gif?raw=true" width="800px">
+<img src="/images/preview.png" width="800px">
 
 ## Demo
 A live demo is available here: https://skyreep.github.io/portfolio/
