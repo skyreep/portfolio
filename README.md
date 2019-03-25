@@ -1,4 +1,4 @@
-# CodeCrash
+# Portfolio
 
 ## Preview
 <img src="/images/preview.png" width="800px">
