@@ -7,7 +7,7 @@
 A live demo is available here: https://skyreep.github.io/portfolio/
 
 ## Description
-A responsive portfolio page built mobile-first with HTML, CSS, Bootstrap, and jQuery. Completed for an 8 hour rapid development cycle project in the CSCI-495 IS Capstone course at Coastal Carolina University.
+A portfolio page complete with dark mode. Built with HTML, CSS, Bootstrap, and jQuery. Completed for an 8 hour rapid development cycle project in the CSCI-495 IS Capstone course at Coastal Carolina University.
 
 ## Dependencies
 <ul>
